@@ -65,17 +65,17 @@ class Person:
                 self.name = str(input('Input Name : '))
                 self.age = int(input('Input Age : '))
                 if self.age <= 5:
-                    self.status = 'Balita'
+                    self.status = 'Toddler'
                 elif self.age >= 6 and self.age <= 10:
-                    self.status = 'Anak-anak'
+                    self.status = 'Kids'
                 elif self.age >= 11 and self.age <= 17:
-                    self.status = 'Remaja'
+                    self.status = 'Teenager'
                 elif self.age >= 18 and self.age <= 30:
-                    self.status = 'Dewasa'
+                    self.status = 'Adult'
                 elif self.age >= 31 and self.age <= 50:
-                    self.status = 'Tua'
-                elif self.age >= 51 and self.age <= 100:
-                    self.status = 'Lansia'
+                    self.status = 'Parents'
+                elif self.age >= 51 and self.age <= 120:
+                    self.status = 'Old'
                 else:
                     self.status = 'Nothing'
                 i[0] = self.name
